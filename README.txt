@@ -19,7 +19,7 @@ The Pd Benjolin requires a few external libraries to function correctly. It was 
 —https://puredata.info/downloads/pure-data
 
 —MMB library by Mike Moser-Booth
-—A copy of this has been provided in the Pd Benjolin ZIP
+—A copy of this has been provided in the Pd Benjolin Git
 —https://puredata.info/downloads/mmb
 
 Use Deken (Help --> Find Externals) to install:
