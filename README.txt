@@ -1,3 +1,5 @@
+<img>https://raw.githubusercontent.com/macumbista/benjolin/master/pure_data_benjolin.png</img>
+
 *INTRODUCTION*
 
 The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Netherlands in 2009 and available as an open hardware project online. It contains two oscillators (one LFO and one VCO), a voltage controlled filter and a circuit called a “Rungler”, which allows chaotic cross-modulation possibilities between the different parts of the circuit. Hordijk refers to the Benjolin as a circuit which has been “bent by design.”
