@@ -1,4 +1,4 @@
-<img>https://raw.githubusercontent.com/macumbista/benjolin/master/pure_data_benjolin.png</img>
+!(https://raw.githubusercontent.com/macumbista/benjolin/master/pure_data_benjolin.png)
 
 *INTRODUCTION*
 
