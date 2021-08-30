@@ -1,5 +1,5 @@
-![image](https://github.com/macumbista/benjolin/blob/master/pure_data_benjolin.png)
-[![](https://github.com/macumbista/vectorsynthesis/blob/master/divisions_still.png)]
+![Pure Data Benjolin](https://github.com/macumbista/benjolin/blob/master/pure_data_benjolin.png)
+
 
 *INTRODUCTION*
 
