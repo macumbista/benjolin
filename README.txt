@@ -1,4 +1,5 @@
-[![](https://raw.githubusercontent.com/macumbista/benjolin/master/pure_data_benjolin.png)]
+[![](http://raw.githubusercontent.com/macumbista/benjolin/master/pure_data_benjolin.png)]
+[![](http://img.youtube.com/vi/piZPIMYfq0c/0.jpg)]
 
 *INTRODUCTION*
 
