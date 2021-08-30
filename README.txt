@@ -1,9 +1,3 @@
-*DOWNLOAD*
-
-http://macumbista.net/wp-content/uploads/2016/12/puredata-benjolin.zip
-Please consider a small donation (suggested $10, approx the cost of a CD digital download for example) if you find this instrument useful.
-
-
 *INTRODUCTION*
 
 The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Netherlands in 2009 and available as an open hardware project online. It contains two oscillators (one LFO and one VCO), a voltage controlled filter and a circuit called a “Rungler”, which allows chaotic cross-modulation possibilities between the different parts of the circuit. Hordijk refers to the Benjolin as a circuit which has been “bent by design.”
@@ -14,58 +8,43 @@ The Pd Benjolin uses anti-aliased oscillators and filters from Mike Moser-Booth�
 
 *QUICKSTART*
 
-Using Pure Data Extended, open the patch named “benjolin-help.pd”, make sure DSP is turned on in Pd and have fun!
+Using the latest Pd, make sure all the necessary libraries are installed using Deken , then open the patch named “benjolin-help.pd”, make sure DSP is turned on in Pd and have fun!
 
 *DEPENDENCIES*
 
-The Pd Benjolin requires a few external libraries to function correctly. Ideal would be to use the Pure Data Extended distribution:
+The Pd Benjolin requires a few external libraries to function correctly. It was designed originally using Pure Data Extended, but since that is no longer supported, you should  install the “Vanilla” version of Pure Data and add the external libraries yourself with Deken, the built-in external manager.
 
-–Pure Data “Extended”
-—Contains everything needed to run the Pd Benjolin
-—https://puredata.info/downloads/pd-extended
-
-But since that is no longer supported, at some point you may need to install the “Vanilla” version of Pure Data and add the external libraries yourself.
-
-–Pure Data “Vanilla”
+—Pure Data “Vanilla”
 —Must be combined with the libraries listed below to run the Pd Benjolin
 —https://puredata.info/downloads/pure-data
 
-–MMB library by Mike Moser-Booth
+—MMB library by Mike Moser-Booth
 —A copy of this has been provided in the Pd Benjolin ZIP
 —https://puredata.info/downloads/mmb
 
-–MATRIXCTL library by João Pais
-—A copy of this has been provided in the Pd Benjolin ZIP
-—http://patchstorage.com/jmmmp-library/
+Use Deken (Help --> Find Externals) to install:
 
-–JMMMP library by João Pais
-—Included in Pd-Extended
-—https://puredata.info/downloads/jmmmp
+–jmmmp
 
-–HEXLOADER
-—Included in Pd-Extended
-—https://puredata.info/downloads/hexloader
+–hexloader
 
-–IEMMATRIX
-—Included in Pd-Extended
-—https://puredata.info/downloads/iemmatrix
+–iemmatrix
 
-–MAXLIB
-—Included in Pd-Extended
-—https://puredata.info/downloads/maxlib
+–maxlib
 
-–ZEXY
-—Included in Pd-Extended
-—https://puredata.info/downloads/zexy
+–zexy
 
-–CREB by Tom Schouten
-—Included in Pd-Extended
-—http://zwizwa.be/darcs/creb/
+–creb
 
+–flatgui
+
+–ggee
+
+–list-abs
 
 *USAGE*
 
-–CONTROLS
+—CONTROLS
 
 —O1 FRQ: manual frequency control of Oscillator 1 (VCO)
 
@@ -83,7 +62,7 @@ But since that is no longer supported, at some point you may need to install the
 
 —FIL SWP: amount of Oscillator 2 triangle wave control voltage sent to the Voltage Controlled Filter
 
-–PATCHBAY SIGNAL OUTPUTS
+—PATCHBAY SIGNAL OUTPUTS
 
 The matrix patchbay of the Pure Data Benjolin has 8 outputs, three control voltage (CV) inputs and a main output. Some combinations (having an oscillator modulate its own frequency) don’t make a lot of sense and have been marked with an “X”, but are still possible to try if you wish.
 
@@ -103,7 +82,7 @@ The matrix patchbay of the Pure Data Benjolin has 8 outputs, three control volta
 
 —FIL: output of the Voltage Controlled Filter
 
-–PATCHBAY and EXTERNAL CONTROL INPUTS
+—PATCHBAY and EXTERNAL CONTROL INPUTS
 
 —O1 CV: Control Voltage Input to Oscillator 1
 
@@ -125,6 +104,9 @@ The instrument can also bypass the internal oscillators and take an external aud
 
 17.05.17: corrected modulation inputs to O1 (thx Anton!), added Pd-native [rev2~] in place of external [freeverb~] in the help patch.
 
+17.09.19: updated list of libraries necessary to install on Pure Data Vanilla, thx to Dan Friedman.
+
 NOV 2016
 Derek Holzer
 macumbista AT THE DOMAIN gmail DOT com
+
